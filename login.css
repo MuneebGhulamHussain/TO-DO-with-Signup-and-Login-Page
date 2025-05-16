@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('./images/sky-8862862_1280.png');
+    /* opacity: 0.4; */
+    background-repeat: no-repeat;
+    
+    background-size:cover;
+    height: 100vh;
+    overflow-y: hidden;
+    /* overflow-x: hidden; */
+    background-position: center;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: bold;
+ 
+}
+.legendtag{
+    text-align: center;
+    font-size: 2em;
+    /* font-style: italic; */
+    /* text-decoration: underline black; */
+    /* text-decoration: overline black; */
+    border-radius: 20px;
+    background-color: white;
+    border: 5px solid black;
+    color: darkblue;
+    font-weight: bold;
+}
+.mainparent {
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 5px solid black;
+    border-radius: 10px;
+    color: white;
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+  }
+  .secondpareent{
+    display: flex;
+    flex-direction: column;
+    color: black;
+  }
+  .secondpareent label{
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+
+  }
+  .secondpareent label input{
+    padding: 12px;
+    font-size: 1em;
+    outline: none;
+    border: 3px solid black;
+    border-radius:10px ;
+}
+.secondpareent label input ::placeholder{
+    font-size: 2em !important;
+    color: red;
+}
+.secondpareent button{
+      padding: 15px;
+      /* /* padding-right:15px !important ; */
+      margin-top: 15px !important; 
+      outline: none;
+      border: 3px solid black;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-bottom: 20px;
+      color: black;
+      font-weight: bold;
+      background-color: aqua;
+
+
+  }
+
+  @media only screen and (max-width:307px){
+    body{
+        height: 100vh !important;
+    }
+  }
+  .icon{
+    position: absolute;
+    top: 65px;
+    right: 25px;
+    cursor: pointer;
+    
+
+  }
+  
+  .labelparent{
+    /* border: 1px solid black; */
+    position: relative;
+  }
+  /* 705 */
+  @media only screen and (max-width:705px){
+    #para{
+        font-size: 0.8em !important;
+        margin-top: 10px;
+    }
+  }
+  .parared{
+    color: red !important;
+  }
+@media only screen and (max-width:1046px){
+  .mainparent{
+    width: 60% !important;
+  }
+  .grandparent{
+    padding-top: 150px !important;
+  }
+}
+@media only screen and (max-width:641px){
+  .mainparent{
+    width: 90% !important;
+  }
+
+}
+  /* 1046 */

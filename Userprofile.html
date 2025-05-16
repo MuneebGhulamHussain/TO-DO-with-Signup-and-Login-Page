@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Userprofile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body onload="getData()">
+        <div class="navbar">
+        <div class="navbarchild1">
+            <h4>ToDoProfile</h4>
+        </div>
+        <div class="navbarchild2">
+            <ul>
+                <li><a href="dashboard.html">TO-DO-LIST</a></li>
+                <li><a href="Userprofile.html">USER PROFILE</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="grandparent">
+      <fieldset class="mainparent bounce-in-top"  >
+        <legend class="legendtag">USER PROFILE</legend>
+        <div class="secondpareent ">
+           
+              <label for="">FIRST NAME:
+
+                <input id="firstname"  type="text" disabled >
+            </label>
+
+              <label for="">LAST NAME:
+
+                <input id="lastname" type="text" disabled>
+            </label>
+
+
+
+            <label for="">EMAIL ADDRESS:
+
+                <input id="Email" type="text" disabled>
+            </label>
+            <label class="labelparent" for="">PASSWORD:
+                
+                <input id="password" id="password" type="password"   disabled>
+                <i onclick="passTogle()" class=" fa-solid fa-eye-slash icon" id="icon" style="color: #000000;"></i>
+                <p id="para"></p>
+                <!-- <a class="anchor" href="index.html">Create Account</a> -->
+                 <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+                <!-- <button onclick="updatData()">UPDATE DATA</button> -->
+            </label>
+        </div>
+    </fieldset>
+  </section>  
+</body>
+</body>
+<script src="Userprofile.js"></script>
+</html>
