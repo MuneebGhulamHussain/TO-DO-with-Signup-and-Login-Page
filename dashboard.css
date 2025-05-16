@@ -20,7 +20,7 @@ body{
     /* overflow-y: auto; */
     /* background-size: 100%; */
     /* height: 100vh; */
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     /* display: flex; */
 }
 .mainparent{
@@ -279,4 +279,12 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin-top: 20px;
+}
+
+
+
+@media only screen and (max-width:480px){
+    .grandparent{
+        margin-top: -120px !important ;
+    }
 }
